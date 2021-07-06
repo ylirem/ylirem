@@ -1,0 +1,19 @@
+.item {
+    margin-left: 40px;
+}
+
+.item-title{
+
+}
+
+.item-price{
+    background-color:rgb(216, 21, 21);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.add-to-card-button:hover{
+background-color: palevioletred;
+transition: 0.5s;
+
+}
