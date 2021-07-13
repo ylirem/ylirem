@@ -7,13 +7,17 @@
 }
 
 .item-price{
-    background-color:rgb(216, 21, 21);
+    background-color:rgb(214, 26, 26);
     padding: 10px;
     border-radius: 5px;
 }
 
-.add-to-card-button:hover{
-background-color: palevioletred;
-transition: 0.5s;
+.add-to-card-button:{
+    border: none;
+    padding: 10px;
+    margin-bottom: 20px;
+background-color: rgb(231, 77, 128);
+cursor: pointer;
+transition: 0.9s;
 
 }

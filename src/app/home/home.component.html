@@ -2,5 +2,5 @@
     <img src="{{item.imgSrc}}" alt="">
     <div class="item-title">{{item.title}}</div><br>
     <span class="item-price">{{item.price}}</span><br><br>
-    <button class="add-to-card-button">Lisa ostukorvi</button>
+    <button (click)="onAddToCard(item)" class="add-to-card-button">Lisa ostukorvi</button>
 </div>
